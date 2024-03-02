@@ -225,6 +225,7 @@ max-width: 1440px;
 }
 .why-choose-card{
     flex: 0 0 45%;
+    padding: 1em;
 
 }
 .why-choose-card .mulish-heading{
