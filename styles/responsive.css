@@ -44,9 +44,25 @@
    flex-direction: column;
    justify-content: center;
 }
-/* .tour-box{
-    height: auto;
- } */
+/* -------Choose Your Destination Section---------- */
+.img-destination-container{
+        
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    box-sizing: border-box;
+    
+}
+.img-destination-container img{
+width: 100%;
+height: auto;
+}
+.destination-box .mulish-heading{
+    left: 27%;
+    top: 30%;
+    
+}
+
 
 
 
