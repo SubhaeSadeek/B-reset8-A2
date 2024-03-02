@@ -1,0 +1,52 @@
+html{
+    width: 1440px;
+}
+
+
+body{
+background-color: azure;
+}
+
+
+/* extra section */
+.extra-card-container{
+    display: flex;
+    gap: 0.6em;
+    width: 1200px;
+    /* justify-content: space-between; */
+    
+}
+.extra-container > h2{
+    font-size: 3em;
+    color: transparent;
+    text-align: center;
+    animation: hotDealAnim 3s linear infinite
+
+
+}
+@keyframes hotDealAnim {
+    0% {
+        background: linear-gradient(#008000, #0F0);
+        -webkit-background-clip: text;
+    }
+    25% {
+        background: linear-gradient(#f7fad3, #8f8f07);
+        -webkit-background-clip: text;
+    }
+
+    50% {
+        background: linear-gradient(#e71708, #fae0e1);
+        -webkit-background-clip: text;
+    }
+    75% {
+        background: linear-gradient(#bfe8f0, #02848d);
+        -webkit-background-clip: text;
+    }
+    100% {
+        background: linear-gradient(#000FFF, #3CE7D7);
+        -webkit-background-clip: text;
+    }
+}
+.extra-card img{
+    width: 100%;
+}
