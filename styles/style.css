@@ -7,30 +7,36 @@
    font-size: 1em;
    font-weight: 400;
    font-style: normal;
+   color: rgba(19, 19, 24, 0.70);
 
 }
 .mulish-heading {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
+  color: #131318;
+  font-size: 2.5rem;
   font-weight: 800;
   font-style: normal;
 
 }
 
-html{
-    width: 1440px;
-}
+
 
 
 body{
 background-color: azure;
+max-width: 1440px;
+
 }
 .btn-primary{
     width: 175px;
     height: 50px;
+    border: none;
     border-radius: 8px;
     font-weight: 800;
     font-size: 1.25em;
+    color: #fff;
+    text-align: center;
     background: #FF5400;
     
 }
@@ -46,16 +52,17 @@ background-color: azure;
 
 /* Banner Section */
 .banner-container{
-    width: 81%;
+    max-width: 81%;
     height: 500px;
-    margin: 0px auto;
+    margin: 2em auto;
     background-image: url("../images/banner.png");
     border-radius: 1em;
+  
     
 
 }
 .container-hue{
-    height: 500px;
+    /* height: 500px; */
     margin: 0px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     border-radius: 1em; 
@@ -65,24 +72,27 @@ background-color: azure;
     align-items: center;
 }
 .banner-box{
-    width: 800px;
-    margin: 2em auto;
+    /* width: 800px; */
+    margin-top: 5em;
     text-align: center;
-}
-.banner-box p{
-    width: 60%;
-    margin: 0.5em auto;
 }
 .banner-box h2{
     font-size: 3em;
     width: 90%;
     margin: 0.5em auto;
-    text-align: center;
+    color: #fff;
 }
+.banner-box p{
+    width: 60%;
+    margin: 0.5em auto;
+    color: #fff;
+}
+
 #banner-box-2{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
+    justify-content: center;
     padding: 1em;
     gap: 1.5em;
 }
@@ -98,12 +108,41 @@ background-color: azure;
     font-size: 1em;
     font-weight: 700;
 }
+/* --------------Banner Section ENDS---------------- */
+
+/* -------Our Poular Tour Section STARTS---------- */
+.popular-tours-container{
+    max-width: 81%;
+    height: auto;
+    margin: 6rem auto;
+    box-sizing: border-box;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+
+}
+.tour-box{
+    flex: 1;
+  
+} 
+#tour-box-img{
+    width: 100%;
+    height: auto;
+    
+}
+/* -------Our Poular Tour Section ENDS---------- */
 
 /* -----------extra section----------- */
+.extra-container{
+    max-width: 81%;
+    margin: 0px auto;
+}
 .extra-card-container{
     display: flex;
-    gap: 0.6em;
-    width: 1200px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 1em;
+    
  
 }
 .extra-container > h2{
@@ -113,6 +152,22 @@ background-color: azure;
     animation: hotDealAnim 3s linear infinite
 
 
+}
+.extra-card-container img{
+    width: 100%;
+    border-radius: 1em;
+    
+}
+.extra-card{
+    background: rgba(255, 84, 0, 0.4);
+    border-radius: 1em;
+}
+.extra-card:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+.mulish-heading{
+    font-size: 22px;
 }
 @keyframes hotDealAnim {
     0% {
@@ -139,4 +194,6 @@ background-color: azure;
 }
 .extra-card img{
     width: 100%;
+    height: auto;
 }
+

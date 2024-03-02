@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+
+    /* banner section */
+    body{
+        max-width: 600px;
+    }
+
+
+    .banner-container{
+        height: auto;
+        margin: 0px auto;
+    }
+    .banner-box{
+        margin-top: 0.5em;
+        text-align: center;
+    }
+
+   #banner-box-2{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        gap: 1.5em;
+    
+}
+.banner-box h2{
+    font-size: 1.4em;
+    width: auto;
+    margin: 0.5em auto;
+    text-align: center;
+    color: #fff;
+}
+.banner-box p{
+    font-size: .9em;
+    margin: 0.5em auto;
+    color: #fff;
+}
+
+/* our popular tour section */
+.popular-tours-container{
+  
+   flex-direction: column;
+   justify-content: center;
+}
+/* .tour-box{
+    height: auto;
+ } */
+
+
+
+
+
+/* extra sextion_Hot Deal */
+
+.extra-card-container{
+    flex-direction: column;
+    align-items: center;
+}
+.extra-container h2, p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
