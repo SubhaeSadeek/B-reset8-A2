@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* -----------shared styles----------- */
 *{
    font-family: "Mulish", sans-serif;
    font-optical-sizing: auto;
+   font-size: 1em;
    font-weight: 400;
    font-style: normal;
 
@@ -23,21 +25,92 @@ html{
 body{
 background-color: azure;
 }
+.btn-primary{
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 1.25em;
+    background: #FF5400;
+    
+}
 
+.text-white{
+    color: #fff;
+}
+/* -------Shares Style Ends--------- */
+/* --------------------------------- */
+/* Header Section */
 
-/* extra section */
+/* Navbar Section */
+
+/* Banner Section */
+.banner-container{
+    width: 81%;
+    height: 500px;
+    margin: 0px auto;
+    background-image: url("../images/banner.png");
+    border-radius: 1em;
+    
+
+}
+.container-hue{
+    height: 500px;
+    margin: 0px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 1em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-box{
+    width: 800px;
+    margin: 2em auto;
+    text-align: center;
+}
+.banner-box p{
+    width: 60%;
+    margin: 0.5em auto;
+}
+.banner-box h2{
+    font-size: 3em;
+    width: 90%;
+    margin: 0.5em auto;
+    text-align: center;
+}
+#banner-box-2{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 1em;
+    gap: 1.5em;
+}
+#banner-box-2 .banner-input{
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#banner-box-2 .btn-primary{
+    font-size: 1em;
+    font-weight: 700;
+}
+
+/* -----------extra section----------- */
 .extra-card-container{
     display: flex;
     gap: 0.6em;
     width: 1200px;
-    /* justify-content: space-between; */
-    
+ 
 }
 .extra-container > h2{
     font-size: 2.5em;
     color: transparent;
     text-align: center;
-    animation: hotDealAnim 2s linear infinite
+    animation: hotDealAnim 3s linear infinite
 
 
 }
