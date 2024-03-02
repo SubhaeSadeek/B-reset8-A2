@@ -359,3 +359,20 @@ input{
 
 }
 
+/* Footer Section Strart */
+footer{
+    max-width: 100%;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-foo{
+    max-width: 50%;
+}
+#footer1{
+    display: flex;
+    
+    
+}
+
