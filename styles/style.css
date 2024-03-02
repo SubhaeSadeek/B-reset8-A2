@@ -46,10 +46,20 @@ max-width: 1440px;
 }
 /* -------Shares Style Ends--------- */
 /* --------------------------------- */
-/* Header Section */
 
 /* Navbar Section */
+.nav-classic{
+    margin-top: 2em;
+    max-width: 50%;
+}
+#nav1{
+    display: flex;
+}
 
+.nav-classic #nav-heading{
+    color: #FF5400;
+    font-size: 2em;
+}
 /* Banner Section */
 .banner-container{
     max-width: 81%;
@@ -188,10 +198,7 @@ max-width: 1440px;
     width: 81%;
     margin: 2em auto;
 }
-/* .why-choose-container > p{
-    width: 50%;
-    margin: auto;
-} */
+
 .why-choose-card-container{
     display: flex;
     gap: 2em;
@@ -369,7 +376,7 @@ footer{
     background:  rgba(19, 19, 24, 0.05);;
 }
 .footer-foo{
-    margin-top: 3em;
+    margin-top: 2em;
     max-width: 50%;
 }
 #footer1{
