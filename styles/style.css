@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+   font-family: "Mulish", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+
+}
+.mulish-heading {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
 html{
     width: 1440px;
 }
@@ -17,10 +34,10 @@ background-color: azure;
     
 }
 .extra-container > h2{
-    font-size: 3em;
+    font-size: 2.5em;
     color: transparent;
     text-align: center;
-    animation: hotDealAnim 3s linear infinite
+    animation: hotDealAnim 2s linear infinite
 
 
 }
