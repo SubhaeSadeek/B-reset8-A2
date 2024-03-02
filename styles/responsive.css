@@ -62,13 +62,18 @@ height: auto;
     top: 30%;
     
 }
+/* why choose us section */
 
+.why-choose-card{
+    flex: 0 0 100%;
+    text-align: left;
 
+}
+.why-choose-container > h2{
+    font-size: 2em;
+}
 
-
-
-
-/* extra sextion_Hot Deal */
+/* extra section_Hot Deal */
 
 .extra-card-container{
     flex-direction: column;
@@ -79,8 +84,26 @@ height: auto;
 }
 
 
+ /* Newsleter Section  */
 
+ .newsletter{
+    flex-direction: column;
+    gap: 2em;
 
+}
+
+#button1 .mulish-heading{
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+#button1{
+    width: 275px;
+    height: 120px;
+    bottom: 18%;
+    right: 1.5%;
+
+}
 
 
 

@@ -125,6 +125,7 @@ max-width: 1440px;
 }
 .tour-box{
     flex: 1;
+    text-align: justify;
   
 } 
 #tour-box-img{
@@ -139,7 +140,13 @@ max-width: 1440px;
     width: 81%;
     height: auto;
     margin: 2em auto;
+    text-align: center;
 }
+.choose-destination-container > p{
+    width: 50%;
+    margin: auto;
+}
+
 .img-destination-container{
         
     display: grid;
@@ -175,6 +182,45 @@ max-width: 1440px;
     font-size: 2.25em;
 }
 /* -------Choose Your Destination Section ENDS---------- */
+
+/* -------WHY Choose US Section STARTS---------- */
+.why-choose-container{
+    width: 81%;
+    margin: 2em auto;
+}
+/* .why-choose-container > p{
+    width: 50%;
+    margin: auto;
+} */
+.why-choose-card-container{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.why-choose-card{
+    flex: 0 0 45%;
+
+}
+.why-choose-card .mulish-heading{
+    font-size: 1.5em;
+ }
+.why-choose-container > h2, #why-choose-text {
+    text-align: center;
+    width: 50%;
+    margin: 1em auto;
+}
+#self-card-1, #self-card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#self-card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
 /* -----------extra section----------- */
 .extra-container{
     max-width: 81%;
@@ -188,14 +234,15 @@ max-width: 1440px;
     
  
 }
-.extra-container > h2{
-    font-size: 2.5em;
-    color: transparent;
+.extra-container > p{
+    width: 50%;
+    margin: 1em auto;
     text-align: center;
-    animation: hotDealAnim 3s linear infinite
-
-
 }
+.extra-card p{
+    padding: 1em;
+}
+
 .extra-card-container img{
     width: 100%;
     border-radius: 1em;
@@ -209,8 +256,28 @@ max-width: 1440px;
     transform: scale(1.1, 1.1);
     transition: 0.5s;
 }
-.mulish-heading{
+.extra-card .mulish-heading{
     font-size: 22px;
+    padding-left: 1em;
+}
+#extra-box-1, #extra-box-3{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99);
+}
+
+.extra-card #extra-box-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 1);
+}
+.extra-container > h2{
+    font-size: 2.5em;
+    color: transparent;
+    text-align: center;
+    animation: hotDealAnim 3s linear infinite
+
+
 }
 @keyframes hotDealAnim {
     0% {
@@ -240,3 +307,58 @@ max-width: 1440px;
     height: auto;
 }
 /* -------Extra bonus section ends---------- */
+
+/* -------Newsletter Section STARTS---------- */
+
+.newsletter{
+    width: 81%;
+    margin: 4em auto;
+    display:flex;
+    gap: 2em;
+    
+}
+.newsletter #news-border{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+#news-border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.newsletter-container{
+    flex: 1;
+}
+input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1em;
+    border: none;
+}
+#submit1 {
+    width: 393px;
+    height: 52px;
+
+}
+#newsletter-container1 img{
+    width: 100%;
+    height: auto;
+}
+.newsletter-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#button1{
+    position: absolute;
+    width: 325px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    bottom: 13%;
+    right: 1.5%;
+
+}
+
