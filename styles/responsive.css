@@ -91,7 +91,10 @@ height: auto;
     gap: 2em;
 
 }
-
+#newsletter-container1 img{
+    width: 100%;
+    height: auto;
+}
 #button1 .mulish-heading{
     font-size: 1.5em;
     margin-top: 0px;
