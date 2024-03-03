@@ -48,7 +48,24 @@ max-width: 1440px;
 /* --------------------------------- */
 
 /* Navbar Section */
-.navbar-classic{
+nav{ 
+    background: violet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav1{
+    background: #bbc7c7;
+    display: inline-flex;
+}
+#nav1 #nav-heading1{
+    font-size: 2em;
+}
+#nav1 #nav-heading2{
+    color: #FF5400;
+    font-size: 2em;
+}
+/* .navbar-classic{
     max-width:81% ;
     display: flex;
     justify-content: space-between;
@@ -78,8 +95,8 @@ max-width: 1440px;
 }
 #navbar-box-2 ul{
     display: flex;
-    justify-content: flex-end;
-}
+    justify-content: flex-end; 
+}*/
 /* Banner Section */
 .banner-container{
     max-width: 81%;
@@ -119,7 +136,7 @@ max-width: 1440px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     display: inline-flex;
-    justify-content: center;
+    align-items: center;
     padding: 1em;
     gap: 1.5em;
 }
@@ -355,7 +372,7 @@ max-width: 1440px;
 .newsletter-container{
     flex: 1;
 }
-input{
+#news-border input{
     width: 393px;
     height: 52px;
     border-radius: 8px;
