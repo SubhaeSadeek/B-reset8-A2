@@ -80,7 +80,11 @@ height: auto;
     font-size: 2em;
 }
 
-
+/* deals section */
+.deals-discount{
+    display:flex;
+    flex-direction: column;
+}
 /* extra section_Hot Deal */
 
 .extra-card-container{
