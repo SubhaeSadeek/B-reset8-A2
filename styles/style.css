@@ -49,21 +49,35 @@ max-width: 1440px;
 
 /* Navbar Section */
 nav{ 
-    background: violet;
+    max-width: 81%;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #nav1{
-    background: #bbc7c7;
     display: inline-flex;
 }
+
 #nav1 #nav-heading1{
     font-size: 2em;
 }
 #nav1 #nav-heading2{
     color: #FF5400;
     font-size: 2em;
+}
+#navbar-box-2 ul{
+    display: flex;
+    gap: 2em;
+}
+#navbar-box-2  li{
+    list-style-type: none;
+}
+#navbar-box-2  a{
+    text-decoration: none;
+}
+#navbar-box-2  li:hover{
+    color: #FF5400;
 }
 /* .navbar-classic{
     max-width:81% ;
