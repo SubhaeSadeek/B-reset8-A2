@@ -56,7 +56,7 @@ nav{
     align-items: center;
 }
 #nav1{
-    display: inline-flex;
+    display: flex;
 }
 
 #nav1 #nav-heading1{
@@ -66,7 +66,7 @@ nav{
     color: #FF5400;
     font-size: 2em;
 }
-#navbar-box-2 ul{
+#navbar-box-2  ul{
     display: flex;
     gap: 2em;
 }
@@ -79,39 +79,12 @@ nav{
 #navbar-box-2  li:hover{
     color: #FF5400;
 }
-/* .navbar-classic{
-    max-width:81% ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#nav1{
-    display: flex;
-}
-.nav-classic{
-    margin-top: 2em;
-    max-width: 50%;
-}
-.nav-classic #nav-heading{
-    color: #FF5400;
-    font-size: 2em;
-}
-#navbar-box-2 ul{
-    list-style-type: none;
-}
-#navbar-box-2 > ul a{
-    text-decoration: none;
 
+/* -------------for Hamberger menu------*/
+#navbar-box-3{
+    display: none;
 }
-
-.navbar-container{
-    flex: 1 0 40%;
-}
-#navbar-box-2 ul{
-    display: flex;
-    justify-content: flex-end; 
-}*/
-/* Banner Section */
+  /* Banner Section */
 .banner-container{
     max-width: 81%;
     height: 500px;
@@ -276,6 +249,16 @@ nav{
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
+}
+
+/* ----------deals and discount section STARTS............ */
+.deals-discount{
+    width: 81%;
+    margin: 0px auto;
+}
+.deals-discount img{
+    width: 100%;
+    height: auto;
 }
 /* -----------extra section----------- */
 .extra-container{
