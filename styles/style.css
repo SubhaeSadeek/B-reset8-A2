@@ -258,7 +258,7 @@ nav{
 }
 #discount-text, #discount-head {
     text-align: center;
-    width: 50%;
+    max-width: 50%;
     margin: 1em auto;
 }
 .discount-image{
@@ -271,8 +271,8 @@ nav{
 }
 #offer-card-1, #offer-card-2, #offer-card-3{
     position: absolute;
-    width: 580px;
-    height: 390px;
+    max-width: 580px;
+    max-height: 390px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
@@ -402,6 +402,7 @@ nav{
     height: auto;
 }
 /* -------Extra bonus section ends---------- */
+
 
 /* -------Newsletter Section STARTS---------- */
 
