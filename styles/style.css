@@ -253,11 +253,67 @@ nav{
 
 /* ----------deals and discount section STARTS............ */
 .deals-discount{
-    width: 81%;
+    max-width: 81%;
     margin: 0px auto;
 }
-.deals-discount img{
+#discount-text, #discount-head {
+    text-align: center;
+    width: 50%;
+    margin: 1em auto;
+}
+.discount-image{
     width: 100%;
+    height: auto;
+}
+
+#deals-card-container-1, #deals-card-container-2, #deals-card-container-3{
+    position: relative;
+}
+#offer-card-1, #offer-card-2, #offer-card-3{
+    position: absolute;
+    width: 580px;
+    height: 390px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+ }
+ #offer-card-1, #offer-card-3{
+    top: 7%;
+    right: 5%;
+ }
+ #offer-card-2{
+    top: 7%;
+    left: 5%;
+ }
+
+.discount-content{
+    max-width: 70%;
+    margin: 1em auto;
+    padding: 1em;
+}
+ #discount-head-name{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+ }
+ #discount-head-price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    
+ }
+.dynamic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dynamic p{
+    flex: 1;
+}
+.dynamic img{
+    width: 7%;
     height: auto;
 }
 /* -----------extra section----------- */
